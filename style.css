@@ -176,4 +176,32 @@ margin-bottom: 48px;
     cursor: pointer;
     transition: 0.2s ease-in-out;
 }
+.grid-card:hover{
+    transform: scale(1.02);
+    background-color: black;
+    color: white;
+}
+.grid-card i{
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+.grid-card span{
+    font-size: 24px;
+    font-weight: 500;
+    background: linear-gradient(to right, rgb(255, 0, 255), rgb(0, 157, 255));
+    background-clip: text;
+    color: transparent;
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-track{
+    color: rgb (219,219,219);
+}
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(to bottom, rgb(255, 0, 255), rgb(0, 157, 255));
+}
+
 /* experince end */
